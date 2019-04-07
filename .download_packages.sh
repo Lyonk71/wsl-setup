@@ -1,8 +1,11 @@
 #!/bin/bash
 
-\cp /home/lyonk71/lyonk71/.vimrc ~
-\cp /home/lyonk71/lyonk71/.bashrc ~
-\cp /home/lyonk71/lyonk71/.download_packages.sh ~
+/home/lyonk71/wsl-setup/to_vimrc >> /home/lyonk71/.vimrc
+uniq /home/lyonk71/.vimrc
+
+/home/lyonk71/wsl-setup/to_bashrc >> /home/lyonk71/.bashrc
+uniq /home/lyonk71/.bashrc
+
 
 # update system
 sudo apt update -y
