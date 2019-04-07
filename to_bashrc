@@ -1,0 +1,9 @@
+# add startup alias
+alias ct='cd "/mnt/c/Users/kzl02/Desktop/Python"'
+
+# add firewall aliases
+alias pip3='pip3 --trusted-host pypi.org --trusted-host pypi.python.org --trusted-host files.pythonhosted.org'
+alias git="git -c http.sslVerify=false"
+
+#set display variable (for copy)
+export DISPLAY=:0
