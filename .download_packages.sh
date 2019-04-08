@@ -1,10 +1,17 @@
 #!/bin/bash
 
-cat /home/lyonk71/wsl-setup/to_vimrc >> /home/lyonk71/.vimrc
-uniq /home/lyonk71/.vimrc
 
+# update .vimrc
+cat /home/lyonk71/wsl-setup/to_vimrc >> /home/lyonk71/.vimrc
+awk '!a[$0]++' .vimrc > .vimrctemp
+mv .vimrctemp .vimrc
+rm .vimrctemp
+
+# update .bashrc
 cat /home/lyonk71/wsl-setup/to_bashrc >> /home/lyonk71/.bashrc
-uniq /home/lyonk71/.bashrc
+awk '!a[$0]++' .bashrc > .bashrctemp
+mv .bashrctemp .bashrc
+rm .bashrctemp
 
 
 # update system
