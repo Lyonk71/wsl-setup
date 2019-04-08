@@ -1,11 +1,11 @@
 # add startup alias
 alias ct='cd "/mnt/c/Users/Keith/OneDrive/Python"'
-alias ctw='cdt "/mnt/c/Users/kzl02/Desktop/Python"'
+alias ctw='cd "/mnt/c/Users/kzl02/Desktop/Python"'
 
 
 # add firewall aliases
-alias pip3w='pip3t --trusted-host pypi.org --trusted-host pypi.python.org --trusted-host files.pythonhosted.org'
-alias gitw="gitt -c http.sslVerify=false"
+alias pip3w='pip3 --trusted-host pypi.org --trusted-host pypi.python.org --trusted-host files.pythonhosted.org'
+alias gitw="git -c http.sslVerify=false"
 
 #set display variable (for copy)
 export DISPLAY=:0
