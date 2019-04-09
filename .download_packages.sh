@@ -16,7 +16,7 @@ sudo apt update -y
 sudo apt upgrade -y
 
 # upgrade vim for xterm_clipboard support
-sudo apt install vim-gtk
+sudo apt install vim-gtk -y
 
 # get pip
 sudo apt install python3-pip -y
