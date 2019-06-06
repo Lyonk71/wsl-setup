@@ -1,3 +1,6 @@
+set ttymouse=xterm2
+set mouse=n
+
 " WSL yank support
 let s:clip = '/mnt/c/Windows/System32/clip.exe'  " default location
 if executable(s:clip)
