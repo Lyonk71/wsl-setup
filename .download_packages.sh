@@ -2,7 +2,7 @@
 
 
 # update .vimrc
-mv /home/lyonk71/wsl-setup/.vimrc >> /home/lyonk71/.vimrc
+mv /home/lyonk71/wsl-setup/.vimrc /home/lyonk71/.vimrc
 
 # update .bashrc
 cat /home/lyonk71/wsl-setup/to_bashrc >> /home/lyonk71/.bashrc
