@@ -60,6 +60,8 @@ map <C-n> :NERDTreeToggle<CR>
 " change nerdtree width
 let g:NERDTreeWinSize=45
 
+" JVIM END ---------------------------------------------------
+
 " VIM mouse scroll (including tmux)
 set mouse=n
 
