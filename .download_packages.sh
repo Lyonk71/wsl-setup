@@ -20,6 +20,20 @@ sudo apt install python3-pip -y
 # get ipython
 sudo apt install ipython3 -y
 
+
+
+# set up jvim --------------------------------------------------------------------
+
+mv ~/wsl-setup/.tmux.conf ~/.tmux.conf 
+chmod u+x ~/wsl-setup/jvim
+sudo mv ~/wsl-setup/jvim /bin/jvim
+
+# copy F1, F2, F3, and F4 shortcuts to ~
+cp /home/lyonk71/jupyvim/.f1_script.sh ~
+cp /home/lyonk71/jupyvim/.f2_script.sh ~
+cp /home/lyonk71/jupyvim/.f3_script.sh ~
+cp /home/lyonk71/jupyvim/.f4_script.sh ~
+
 # install vundle
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim || git -c http.sslVerify=false clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 vim +PluginInstall +qall
