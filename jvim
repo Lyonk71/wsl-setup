@@ -1,0 +1,6 @@
+#!/bin/bash
+
+jvim(){
+tmux new \; split-window \; send-keys 'ipython3 --TerminalInteractiveShell.editing_mode=vi' C-m 'clear' C-m \; resize-pane -x 9999 \; select-pane -U \; send-keys 'clear' C-m 'vim ' $1 C-m
+}
+jvim $1
