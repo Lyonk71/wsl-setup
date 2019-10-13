@@ -5,8 +5,8 @@ filetype off                  " required
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
-"enable ssl verification
-let $GIT_SSL_NO_VERIFY = 'true'
+" enable ssl verification
+" let $GIT_SSL_NO_VERIFY = 'true'
 
 " alternatively, pass a path where Vundle should install plugins
 "call vundle#begin('~/some/path/here')
