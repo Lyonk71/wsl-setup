@@ -1,4 +1,4 @@
-set ttymouse=xterm2
+" VIM mouse scroll (including tmux)
 set mouse=n
 
 " WSL yank support
