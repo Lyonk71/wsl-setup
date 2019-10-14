@@ -2,10 +2,12 @@
 Set up WSL environment
 
 # Installation
-First, download the repository:
+1) Download the repository:
 
     git clone https://github.com/Lyonk71/wsl-setup.git ~/wsl-setup
     
-Next, run the install script:
+2) Run the install script:
 
     bash ~/wsl-setup/.download_packages.sh
+
+3) Enter TMUX, Press prefix + I (capital i, as in Install) to finish installing tmux-yank
