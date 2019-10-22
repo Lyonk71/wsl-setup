@@ -18,7 +18,7 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'vim-scripts/indentpython.vim'
 
 " python code completion
-Plugin 'ervandew/supertab'
+Plugin 'davidhalter/jedi-vim'
 
 " syntax checking
 Plugin 'vim-syntastic/syntastic'
