@@ -60,6 +60,9 @@ map <C-n> :NERDTreeToggle<CR>
 " change nerdtree width
 let g:NERDTreeWinSize=45
 
+" don't run jedi-vim on pressing .
+let g:jedi#popup_on_dot = 0
+
 " JVIM END ---------------------------------------------------
 
 " VIM mouse scroll (including tmux)
