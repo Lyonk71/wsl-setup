@@ -32,8 +32,9 @@ cp /home/lyonk71/wsl-setup/.f2_script.sh ~
 cp /home/lyonk71/wsl-setup/.f3_script.sh ~
 cp /home/lyonk71/wsl-setup/.f4_script.sh ~
 
-# install ncurses
+# install ncurses & python development tools (ycm)
 sudo apt-get install libncurses5-dev libncursesw5-dev
+sudo apt install build-essential cmake python3-dev
 
 # install vundle
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim || git -c http.sslVerify=true clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
