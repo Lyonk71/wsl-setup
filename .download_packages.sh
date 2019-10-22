@@ -36,6 +36,9 @@ cp /home/lyonk71/wsl-setup/.f4_script.sh ~
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim || git -c http.sslVerify=true clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 vim +PluginInstall +qall
 
+# install tmux package manager
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm || git -c http.sslVerify=true clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+
 # install black for vim-autoformat
 pip3 install black
 
