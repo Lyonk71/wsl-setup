@@ -63,6 +63,9 @@ let g:NERDTreeWinSize=45
 " don't run jedi-vim on pressing .
 let g:jedi#popup_on_dot = 0
 
+" Don't automatically call signatures (options)
+let g:jedi#show_call_signatures = 0
+
 " JVIM END ---------------------------------------------------
 
 " VIM mouse scroll (including tmux)
