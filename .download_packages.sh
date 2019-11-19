@@ -20,6 +20,11 @@ sudo apt install python3-pip -y
 # get ipython
 sudo apt install ipython3 -y
 
+# download vim-instant-markdown dependencies
+sudo apt install xdg-utils -y
+sudo apt install curl -y
+sudo apt install nodejs -y
+
 # set up jvim --------------------------------------------------------------------
 
 mv ~/wsl-setup/.tmux.conf ~/.tmux.conf 
