@@ -15,5 +15,5 @@ export DISPLAY=:0
 # shorten working path
 PROMPT_DIRTRIM=3
 
-#initialize environmental variables
-source /etc/environment
+# Add chrome to path (for vim-instant-markdown / vimwiki)
+export PATH=$PATH:'/mnt/c/Program Files (x86)/Google/Chrome/Application'
