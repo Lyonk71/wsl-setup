@@ -35,6 +35,12 @@ Plugin 'kien/ctrlp.vim'
 " autoformat (make sure to pip install black)
 Plugin 'Chiel92/vim-autoformat'
 
+" vim note-taking
+Plugin 'vimwiki/vimwiki'
+
+" render markdown for vimwiki
+Plugin 'suan/vim-instant-markdown', {'rtp':'after'}
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -46,7 +52,7 @@ au BufNewFile,BufRead *.py
     \ set tabstop=4 |
     \ set softtabstop=4 |
     \ set shiftwidth=4 |
-    \ set textwidth=79 |
+"    \ set textwidth=79 |
     \ set expandtab |
     \ set autoindent |
     \ set fileformat=unix 
