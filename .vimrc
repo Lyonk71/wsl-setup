@@ -66,7 +66,22 @@ let g:jedi#popup_on_dot = 0
 " Don't automatically call signatures (options)
 let g:jedi#show_call_signatures = 0
 
-" JVIM END ---------------------------------------------------
+" JVIM END ----------------------------------------------------
+
+" VIMWIKI SETTINGS --------------------------------------------
+set nocompatible
+filetype plugin on
+syntax on
+let g:vimwiki_list = [{'path': '/mnt/c/Users/kzl02/OneDrive/Jounal', 'index': 'main', 'syntax':'markdown', 'ext':'.md'}]
+" VIMWIKI END ------------------------------------------------
+
+" INSTANT MARKDOWN SETTINGS ----------------------------------
+" let g:instant_markdown_autostart=0
+let g:instant_markdown_browser = "chrome.exe"
+
+
+" INSTANT MARKDOWN END ---------------------------------------
+
 
 " VIM mouse scroll (including tmux)
 set mouse=n
