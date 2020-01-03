@@ -45,7 +45,7 @@ vim +PluginInstall +qall
 git submodule update --init --recursive ~/.vim/bundle/jedi-vim
 
 # install tmux package manager
-git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm || git -c http.sslVerify=true clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm || git -c http.sslVerify=false clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
 # install black for vim-autoformat
 pip3 install black
