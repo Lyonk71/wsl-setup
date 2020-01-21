@@ -78,7 +78,7 @@ let g:jedi#show_call_signatures = 0
 set nocompatible
 filetype plugin on
 syntax on
-let g:vimwiki_list = [{'path': '/mnt/c/Users/kzl02/OneDrive/dev_journal', 'index': 'main', 'syntax':'markdown', 'ext':'.md'}]
+let g:vimwiki_list = [{'path': '/mnt/c/Users/kzl02/OneDrive/dev_journal', 'index': 'development', 'syntax':'markdown', 'ext':'.md'}]
 " VIMWIKI END ------------------------------------------------
 
 " INSTANT MARKDOWN SETTINGS ----------------------------------
