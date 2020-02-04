@@ -26,10 +26,12 @@ sudo apt install curl -y
 sudo apt install nodejs -y
 
 # set up jvim --------------------------------------------------------------------
-
 mv ~/wsl-setup/.tmux.conf ~/.tmux.conf 
 chmod u+x ~/wsl-setup/jvim
 sudo mv ~/wsl-setup/jvim /bin/jvim
+
+# YouCompleteme Pre-requisite
+sudo apt install build-essential cmake python3-dev
 
 # copy F1, F2, F3, and F4 shortcuts to ~
 cp /home/lyonk71/wsl-setup/.f1_script.sh ~
