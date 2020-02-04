@@ -14,11 +14,8 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
 
-" pep 8 indenting
-Plugin 'vim-scripts/indentpython.vim'
-
 " python code completion
-Plugin 'davidhalter/jedi-vim'
+Plugin 'ycm-core/YouCompleteMe'
 
 " syntax checking
 Plugin 'vim-syntastic/syntastic'
