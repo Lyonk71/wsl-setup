@@ -15,7 +15,7 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 
 " python code completion
-Plugin 'ycm-core/YouCompleteMe'
+Plugin 'davidhalter/jedi-vim'
 
 " syntax checking
 Plugin 'vim-syntastic/syntastic'
