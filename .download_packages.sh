@@ -36,6 +36,11 @@ cp /home/lyonk71/wsl-setup/.f2_script.sh ~
 cp /home/lyonk71/wsl-setup/.f3_script.sh ~
 cp /home/lyonk71/wsl-setup/.f4_script.sh ~
 
+# prepare vim-instant-markdown
+sudo npm -g install bufferutil
+sudo npm -g install utf-8-validate
+sudo npm -g install instant-markdown-d
+
 # install vundle
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim || git -c http.sslVerify=false clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 vim +PluginInstall +qall
