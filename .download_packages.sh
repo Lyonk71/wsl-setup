@@ -51,6 +51,12 @@ git submodule update --init --recursive ~/.vim/bundle/jedi-vim
 # install tmux package manager
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm || git -c http.sslVerify=false clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
+# install npm (for vim instant markdown)
+sudo apt install npm -y
+sudo npm install bufferutil
+sudo npm install utf-8-validate
+sudo npm -g install instant-markdown-d
+
 # install black for vim-autoformat
 pip3 install black
 
