@@ -24,7 +24,7 @@ cp $HOME/wsl-setup/.vimrc /home/lyonk71/.vimrc
 cp $HOME/wsl-setup/.tmux.conf ~/.tmux.conf 
 
 # install vundle
-git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim || git -c http.sslVerify=false clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/plugin/Vundle.vim || git -c http.sslVerify=false clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/plugin/Vundle.vim
 vim +PluginInstall +qall
 
 # update jedi-vim (vundle plugin)
