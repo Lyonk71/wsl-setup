@@ -18,10 +18,10 @@ sudo apt install python3-pip -y
 sudo apt install ipython3 -y
 
 # update .vimrc
-cp $HOME/wsl-setup/.vimrc /home/lyonk71/.vimrc
+cp $HOME/wsl-setup/.vimrc $HOME/.vimrc
 
 # update .tmux.conf
-cp $HOME/wsl-setup/.tmux.conf ~/.tmux.conf 
+cp $HOME/wsl-setup/.tmux.conf $HOME/tmux.conf 
 
 # install vundle
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/plugin/Vundle.vim || git -c http.sslVerify=false clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/plugin/Vundle.vim
