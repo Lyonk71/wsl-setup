@@ -8,26 +8,14 @@ call vundle#begin()
 " enable ssl verification
 " let $GIT_SSL_NO_VERIFY = 'true'
 
-" alternatively, pass a path where Vundle should install plugins
-"call vundle#begin('~/some/path/here')
-
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
 
 " python code completion
 Plugin 'davidhalter/jedi-vim'
 
-" syntax checking
-Plugin 'vim-syntastic/syntastic'
-
 " pep 8 checking
 Plugin 'nvie/vim-flake8'
-
-" file tree
-Plugin 'scrooloose/nerdtree'
-
-" search for files
-Plugin 'kien/ctrlp.vim'
 
 " autoformat (make sure to pip install black)
 Plugin 'Chiel92/vim-autoformat'
@@ -35,15 +23,13 @@ Plugin 'Chiel92/vim-autoformat'
 " vim note-taking
 Plugin 'vimwiki/vimwiki'
 
-" render markdown for vimwiki
-Plugin 'suan/vim-instant-markdown', {'rtp':'after'}
-
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
 
 " VUNDLE END --------------------------------------------------
 
+" JVIM BEGIN --------------------------------------------------
 " add the proper PEP 8 indentation
 au BufNewFile,BufRead *.py
     \ set tabstop=4 |
@@ -53,15 +39,6 @@ au BufNewFile,BufRead *.py
     \ set expandtab |
     \ set autoindent |
     \ set fileformat=unix 
-
-" ignore .pyc in filetree
-let NERDTreeIgnore=['\.pyc$', '\~$'] "ignore files in NERDTree
-
-" toggle nerdtree
-map <C-n> :NERDTreeToggle<CR>
-
-" change nerdtree width
-let g:NERDTreeWinSize=45
 
 " don't run jedi-vim on pressing .
 let g:jedi#popup_on_dot = 0
@@ -77,14 +54,6 @@ filetype plugin on
 syntax on
 let g:vimwiki_list = [{'path': '/mnt/c/Users/kzl02/OneDrive/dev_journal', 'index': 'development', 'syntax':'markdown', 'ext':'.md'}]
 " VIMWIKI END ------------------------------------------------
-
-" INSTANT MARKDOWN SETTINGS ----------------------------------
-" let g:instant_markdown_autostart=0
-let g:instant_markdown_browser = "chrome.exe"
-
-
-" INSTANT MARKDOWN END ---------------------------------------
-
 
 " VIM mouse scroll (including tmux)
 set mouse=n
