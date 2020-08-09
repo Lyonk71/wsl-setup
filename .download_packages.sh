@@ -21,10 +21,10 @@ sudo apt install ipython3 -y
 cp $HOME/wsl-setup/.vimrc $HOME/.vimrc
 
 # update .tmux.conf
-cp $HOME/wsl-setup/.tmux.conf $HOME/tmux.conf 
+cp $HOME/wsl-setup/.tmux.conf $HOME/.tmux.conf 
 
 # install vundle
-git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/plugin/Vundle.vim || git -c http.sslVerify=false clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/plugin/Vundle.vim
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 vim +PluginInstall +qall
 
 # update jedi-vim (vundle plugin)
