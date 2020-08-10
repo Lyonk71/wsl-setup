@@ -65,25 +65,25 @@ filetype plugin on
 syntax on
 
 let dev_journal = {}
-let dev_journal.path = '$HOME/OneDrive/dev_journal/'
+let dev_journal.path = '$HOME/OneDrive/vimwiki_journals/dev_journal/'
 let dev_journal.index = 'Home'
 let dev_journal.syntax = 'markdown'
 let dev_journal.ext = '.md'
 
 let mech_journal = {}
-let mech_journal.path = '$HOME/OneDrive/mech_journal/'
+let mech_journal.path = '$HOME/OneDrive/vimwiki_journals/mech_journal/'
 let mech_journal.index = 'Home'
 let mech_journal.syntax = 'markdown'
 let mech_journal.ext = '.md'
 
 let home_journal = {}
-let home_journal.path = '$HOME/OneDrive/home_journal/'
+let home_journal.path = '$HOME/OneDrive/vimwiki_journals/home_journal/'
 let home_journal.index = 'Home'
 let home_journal.syntax = 'markdown'
 let home_journal.ext = '.md'
 
 let aws_journal = {}
-let aws_journal.path = '$HOME/OneDrive/aws_journal/'
+let aws_journal.path = '$HOME/OneDrive/vimwiki_journals/aws_journal/'
 let aws_journal.index = 'Home'
 let aws_journal.syntax = 'markdown'
 let aws_journal.ext = '.md'
